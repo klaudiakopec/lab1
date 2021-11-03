@@ -1,0 +1,17 @@
+#include <stdio.h>
+//zad 4
+
+int main() {
+	float a, b, c, d;
+	printf("podaj liczbe pierwsza: ");
+	scanf_s("%f", &a);
+	printf("podaj liczbe druga: ");
+	scanf_s("%f", &b);
+	printf("podaj liczbe trzecia: ");
+	scanf_s("%f", &c);
+	printf("podaj liczbe czwarta: ");
+	scanf_s("%f", &d);
+
+
+	return 0;
+}
