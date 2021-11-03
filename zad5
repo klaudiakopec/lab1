@@ -1,0 +1,41 @@
+#include <stdio.h>
+//zad 5
+
+int main() {
+	float a, b;
+	int wybor;
+	printf("podaj liczbe pierwsza: ");
+	scanf_s("%f", &a);
+	printf("podaj liczbe druga: ");
+	scanf_s("%f", &b);
+
+	printf("\n1.Suma \n2.Roznica \n3.Iloczyn \n4.Iloraz \n5.Srednia\n");
+	printf("\nWybierz opcie: \n");
+	scanf_s("%f", &wybor);
+
+	switch (wybor)
+	{
+	case 1:
+		printf("Suma %f + %f = %f", a, b, a + b);
+		break;
+	case 2:
+		printf("Roznica %f - %f = %f", a, b, a - b);
+		break;
+	case 3:
+		printf("Iloczyn %f * %f = %f", a, b, a * b);
+		break;
+	case 4:
+		printf("Iloraz %f / %f = %f", a, b, a / b);
+		break;
+	case 5:
+		printf("Srednia %f + %f = %f", a, b, (a + b) / 2);
+		break;
+	default:
+		printf("\n nie ma takiej opcji\n");
+		break;
+
+	}
+
+
+	return 0;
+}
