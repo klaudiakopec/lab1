@@ -1,0 +1,25 @@
+#include <stdio.h>
+//zad 3 
+int main() {
+
+	float a;
+    float b;
+	printf("podaj liczbe pierwsza: ");
+	scanf_s("%f", &a);
+	printf("podaj liczbe druga: ");
+	scanf_s("%f", &b);
+
+
+	if (a == b) {
+		printf("liczby jest rowna");
+
+	}
+	else if (a>b){
+		printf("liczba jest wieksza");
+	}
+	else {
+		printf("liczba jest mniejsza");
+	}
+
+	return 0;
+}
