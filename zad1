@@ -1,0 +1,9 @@
+//zad 1
+#include <stdio.h>
+/ int main() {
+	int nralbumu = 122993;
+
+	printf(" nr albumu: %d", nralbumu);
+
+	return 0;
+}
