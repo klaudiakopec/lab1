@@ -1,0 +1,19 @@
+#include <stdio.h>
+//zad 2
+ int main() {
+
+		int a;
+		printf("podaj liczbe: ");
+		scanf_s("%d", &a);
+
+
+		if (a % 2 == 0) {
+			printf("Liczba parzysta");
+
+		}
+		else {
+			printf("liczba nieparzysta");
+		}
+
+		return 0;
+	}
